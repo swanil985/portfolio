@@ -1,0 +1,191 @@
+
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Page Title</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>  
+    <div id="header">
+      <div class="container">
+         <nav>
+            
+            <ul id="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#my-services">Services</a></li>
+               <li><a href="#my-work">Portfoilio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa fa-close" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>full-stack Devloper</p>
+            <h1>Hi, I'm<span>Swapnil </span><br>Sable,From Ahilyanager</h1>
+         </div>
+      </div>
+    </div>
+
+    <!-- ----------About---------- -->
+     <div id="about">
+         <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                  <img src="WhatsApp Image 2025-05-08 at 9.23.13 AM.jpeg" >
+               </div>
+               <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>Hello, I'm Sawpnil Sable,a driven and ambitious student 
+                     pursuning my SYBCS degree.With a strong passion for coding,
+                     I have developed skills in HTML,CSS and JavaScript,and I'
+                     eager to explore job opportunities in the field.My ultimate goal is
+                     to become a proficient Java full-stack develper,and I'm 
+                     dedicatedto continously learing and growing to achieve this 
+                     aspiration."Feel free to modify it as needed to it as needed to fit your style and 
+                     preference"
+                  </p>
+
+                  <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     
+                     <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>full-stack</span><br>Designing Web/App inerface</li>
+                        <li><span>front-end</span><br>Development</li>
+                        <li><span>Web Development</span><br>Building websites</li>
+                     </ul>
+                  </div>
+
+                  
+
+                  <div class="tab-contents" id="education">
+                     <ul>
+                        <li><span>2023</span><br>full-stack,java devloper</li>
+                        <li><span>2023</span><br>BCS from Nirmalatai kakade college</li>
+                        
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+     </div>
+
+<!-- ----------Services---------- -->
+ 
+ <section id="my-services" class="my-services">
+   <h2 class="section-title" style="color: black;">My Services</h2>
+   <p class="section-description" style="color: black;">Here are some of the services I offer:</p>
+   <div class="services-grid">
+     <!-- Service 1 -->
+     <div class="service-item">
+       <i class="fa fa-bar-chart" style="color: black;"></i>
+       <h3 style="color:black;">Web Development</h3>
+       <p style="color:black;">I build fast, responsive, and secure websites using HTML, CSS, JavaScript, and frameworks like React and Angular.</p>
+       <a href="#" class="btn">Learn More</a>
+     </div>
+    
+ </section>
+ 
+
+ <!-- ----------portfilio---------- -->
+  
+  <section id="my-work" class="my-work">
+   <h2 class="section-title" style="color: black;">My Work</h2>
+   <p class="section-description" style="color: black;">Here are some of my recent projects.</p>
+   <div class="work-grid">
+       <!-- Project 1 -->
+       <div class="work-item">
+           <img src="https://cdn.mos.cms.futurecdn.net/xCSAEp8DjjrT2UQB87AoFN.jpg" alt="Project 1" style="height:50%; width:100%;">
+           <div class="work-item-content">
+               <h3>Project 1: Website Redesign</h3>
+               <p>Redesigned a website for a local business, resulting in a 50% increase in website traffic.</p>
+               <a href="#" class="btn">View Project</a>
+           </div>
+       </div>
+       
+       <!-- Project 3 -->
+       <div class="work-item">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2n90sG3uFr6PSNqKOwF14Ye9GEXK1ceg_g&s" alt="Project 3"style="height:50%; width:100%;">
+           <div class="work-item-content">
+               <h3>Project 3: E-commerce Website</h3>
+               <p>Designed and developed an e-commerce website for a fashion brand, resulting in a 20% increase in sales.</p>
+               <a href="#" class="btn">View Project</a>
+           </div>
+       </div>
+   </div>
+</section>
+
+<!-- ---------------Contact-------------- -->
+ <div id="contact">
+   <div class="container">
+      <div id="row">
+      <div class="contact-left">
+         <h1 class="sub-title">Contact Me</h1><br>
+         <p><i class="fa fa-send-o"></i>swapnilsable263@gmail.com</p><br>
+         <p><i class="fa fa-phone"></i> 7821080031</p>
+         <div class="social-icons">
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-telegram"></i></a>
+         </div><br>
+         
+      </div>
+
+      <div class="contact-right">
+         <form>
+            <input type="text" name="Name" placeholder="enter your name" required>
+            <input type="email" name="email" placeholder="enter your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+         </form>
+      </div>
+      </div>
+   </div>
+
+ </div>
+  
+
+     <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname)
+      {
+         
+         for(tablink of tablinks)
+           {
+               tablink.classList.remove("active-links");
+           } 
+
+           for(tabcontent of tabcontents)
+           {
+               tabcontent.classList.remove("active-tab");
+           }  
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+      }
+     </script>
+
+     <script>
+               var sidemeu = document.getElementById("sidemenu");
+
+               function openmenu()
+               {
+                  sidemeu.style.right ="0";
+               }
+               function closemenu()
+               {
+                  sidemeu.style.right ="-200px";
+               }
+     </script>
+</body>
+</html>
